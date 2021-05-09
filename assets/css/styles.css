@@ -1,0 +1,105 @@
+/*  
+Author: WebThemez.com
+License: https://webthemez.com/license 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6;
+  font-weight:600;
+}
+h1, h2{
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Coda Caption', sans-serif;
+}
+ 
+.navbar-dark .navbar-brand {
+    color: #fff !important;
+    font-family: 'Coda Caption', sans-serif;
+}
+.bg-primary{
+	color:#fff !important; 
+	 background-image: linear-gradient(to bottom right, #3e00f9, #8b0bf7)!important;
+}
+.btn-primary{
+	color:#fff !important;
+	 background-image: linear-gradient(to bottom right, #3e00f9, #4c0bf9)!important;
+	border-color:#4c0bf9!important;
+}
+.text-primary{
+	color:#e68b0de8 !important
+}
+.bg-dark{
+	 background-image: linear-gradient(to bottom right, #9304e1, #6f39ff)!important;
+}
+header{
+  /* padding: 70px 0 100px; */
+} 
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 0.937rem;
+    font-weight: 600;
+    padding: 0.625rem 1.25rem; 
+    border-radius: 50px;
+	font-family: 'Rubik', sans-serif;
+	letter-spacing: 1px;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #490bf9;
+}
+
+::selection {
+  color: #fff;
+  background-color: #490bf9;
+}
+
+.bg-primary ::-moz-selection {
+  color: #490bf9;
+  background-color: #fff;
+}
+
+.bg-primary ::selection {
+  color: #490bf9;
+  background-color: #fff;
+}
+  
+.bg-overlay, .hero-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.text-primary{
+	color: #490bf9 !important; 
+}
+.hero-img {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.hero-content{
+	
+}
+.inner-page{
+    background: #006bdf;
+}  
+
+.price-card .card-body ul li{
+	line-height:38px;
+}
+.contact-info i{
+	font-size:24px;
+}
+.team-dp ul{
+	display:bock;
+	margin:0 auto;
+	padding:0;
+}
+.team-dp{
+	text-align:center;
+	display:bock;
+}
